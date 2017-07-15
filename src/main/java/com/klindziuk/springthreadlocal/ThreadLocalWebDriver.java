@@ -42,7 +42,6 @@ public class ThreadLocalWebDriver {
 	        return driver;
 		}    			
 	};
-		
 	
 	public ThreadLocalWebDriver(String browserName){
 		ThreadLocalWebDriver.browserName = browserName;
