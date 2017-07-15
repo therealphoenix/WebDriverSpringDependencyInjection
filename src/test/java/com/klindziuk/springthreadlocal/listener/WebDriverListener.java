@@ -17,7 +17,7 @@ public class WebDriverListener extends AbstractTestNGSpringContextTests implemen
 	private ThreadLocalWebDriver threadLocalWebDriver;
 	
 	//https://jira.spring.io/browse/SPR-4072 -
-	//Spring beans not available within @BeforeTest(BeforeInvokations) methods
+	//Spring beans not available within @BeforeTest(BeforeInvocations) methods
 	protected void springTestContextPrepareTestInstance() throws Exception {
 	    super.springTestContextPrepareTestInstance();
 	}
