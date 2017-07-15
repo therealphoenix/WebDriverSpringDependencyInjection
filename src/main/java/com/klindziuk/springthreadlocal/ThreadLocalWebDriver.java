@@ -14,10 +14,12 @@ public class ThreadLocalWebDriver {
 			WebDriver driver = null;
 	        if (browserName.toLowerCase().contains("firefox")) {
 	            driver = new FirefoxDriver();
+	            //TODO
 	            return null;
 	        }
 	        if (browserName.toLowerCase().contains("ie")) {
 	            driver = new InternetExplorerDriver();
+	            //TODO
 	            return null;
 	        }
 	        if (browserName.toLowerCase().contains("chrome")) {
